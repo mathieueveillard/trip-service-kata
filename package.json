@@ -4,9 +4,8 @@
   "description": "Kata for a legacy code hands-on session. The objective is to write tests and refactor the given legacy code.",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
-    "pretest": "npm run lint"
+    "test": "jest --watch",
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'"
   },
   "author": "Daniel Perez <danipq26@gmail.com>",
   "devDependencies": {
